@@ -9,6 +9,8 @@
   To execute this project can just run the file "transfer_learning copy.ipynb" as a jupyter notebook.
 
   the lines:
+  
     tf.config.threading.set_intra_op_parallelism_threads(2)
     tf.config.threading.set_inter_op_parallelism_threads(2)
-  can be removed. They were included because tensorflow was running in local setting and 
+  
+  can be removed. They were included because tensorflow was running in locally to avoid overheating the CPU.

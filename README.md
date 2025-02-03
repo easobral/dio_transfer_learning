@@ -13,4 +13,4 @@
     tf.config.threading.set_intra_op_parallelism_threads(2)
     tf.config.threading.set_inter_op_parallelism_threads(2)
   
-  can be removed. They were included because tensorflow was running in locally to avoid overheating the CPU.
+  can be added after importing tensorflow to avoid overheating the CPU.

@@ -14,3 +14,7 @@
     tf.config.threading.set_inter_op_parallelism_threads(2)
   
   can be added after importing tensorflow to avoid overheating the CPU.
+
+
+# Metrics project
+  A project to analyze the metrics from the neural network trained on the first part of the transfer learning project
